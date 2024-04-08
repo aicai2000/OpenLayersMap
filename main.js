@@ -1,4 +1,7 @@
 import './style.css';
+import bigdotUrl from "./images/bigdot.png";
+import dotUrl from "./images/dot.svg";
+import squareUrl from "./images/square.svg";
 import {Feature, Map, View} from 'ol';
 import { fromLonLat } from 'ol/proj';
 import OSM from 'ol/source/OSM';
@@ -25,7 +28,7 @@ calPloy.setStyle(
     image: new Icon({
       color: '#BADA55',
       crossOrigin: 'anonymous',
-      src: 'square.svg',
+      src: squareUrl,
     }),
   }),
 );
@@ -35,7 +38,7 @@ calabasas.setStyle(
     image: new Icon({
       color: 'rgba(255, 0, 0, .5)',
       crossOrigin: 'anonymous',
-      src: 'bigdot.png',
+      src: bigdotUrl,
       scale: 0.1,
     }),
   }),
@@ -45,8 +48,8 @@ sandiego.setStyle(
   new Style({
     image: new Icon({
       crossOrigin: 'anonymous',
-      src: 'bigdot.png',
-      scale: 0.2,
+      src: dotUrl,
+      scale: 1.5,
     }),
   }),
 );
@@ -56,7 +59,7 @@ santabarbara.setStyle(
     image: new Icon({
       color: '#8959A8',
       crossOrigin: 'anonymous',
-      src: 'dot.svg'
+      src: dotUrl
     }),
   }),
 );
