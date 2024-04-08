@@ -25,7 +25,7 @@ calPloy.setStyle(
     image: new Icon({
       color: '#BADA55',
       crossOrigin: 'anonymous',
-      src: 'data/square.svg',
+      src: 'square.svg',
     }),
   }),
 );
@@ -35,7 +35,7 @@ calabasas.setStyle(
     image: new Icon({
       color: 'rgba(255, 0, 0, .5)',
       crossOrigin: 'anonymous',
-      src: 'data/bigdot.png',
+      src: 'bigdot.png',
       scale: 0.1,
     }),
   }),
@@ -45,7 +45,7 @@ sandiego.setStyle(
   new Style({
     image: new Icon({
       crossOrigin: 'anonymous',
-      src: 'data/bigdot.png',
+      src: 'bigdot.png',
       scale: 0.2,
     }),
   }),
@@ -56,7 +56,7 @@ santabarbara.setStyle(
     image: new Icon({
       color: '#8959A8',
       crossOrigin: 'anonymous',
-      src: 'data/dot.svg'
+      src: 'dot.svg'
     }),
   }),
 );
